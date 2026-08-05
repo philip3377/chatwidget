@@ -1,0 +1,11 @@
+.app-container {
+  font-family: system-ui, sans-serif;
+  padding: 2rem;
+  min-height: 100vh;
+  background: #f9fafb;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
