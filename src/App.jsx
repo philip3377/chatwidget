@@ -5,8 +5,8 @@ export default function App() {
     <div className="app-container">
       <h1>Flowise BubbleChat Test</h1>
       <BubbleChat
-        chatflowid="ed240bf9-1470-445c-80e5-ea44a5d5fc26"
-        apiHost="http://68.183.224.154:7000"
+        chatflowid={import.meta.env.VITE_CHATFLOWID}
+        apiHost={import.meta.env.VITE_API_HOST}
       />
     </div>
   )
